@@ -1,0 +1,12 @@
+.title__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arrow__top {
+  border-right-color: gold;
+  border-left: 0;
+  padding-left: 6px;
+}
+/*# sourceMappingURL=arrow.css.map */

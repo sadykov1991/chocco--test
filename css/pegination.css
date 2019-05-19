@@ -1,0 +1,58 @@
+.pegination {
+  position: fixed;
+  top: 10rem;
+  right: 10rem;
+}
+
+.pegination__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+}
+
+.pegination___item {
+  margin-bottom: .5rem;
+}
+
+.pegination___item::before {
+  display: none;
+}
+
+.pegination__link {
+  border-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.pegination__link::before {
+  content: '';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: .6rem;
+  height: .6rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.pegination .active .pegination__link {
+  border-color: white;
+}
+/*# sourceMappingURL=pegination.css.map */
